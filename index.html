@@ -6,13 +6,13 @@
 <body>
   <script src="//cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 	<script>
-    window.rootPath = '/';
+    window.rootPath = '';
     window.defaultLanguage = 'en-us';
     var lang = Cookies.get('docsite_language');
     if (!lang) {
       lang = 'en-us';
     }
-    window.location = window.rootPath + lang;
+    window.location = window.rootPath + '/' + lang;
   </script>
 </body>
 </html>
