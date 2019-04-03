@@ -4,7 +4,7 @@ export default {
   port: 8080, // 本地开发服务器的启动端口
   domain: 'dubbo.apache.org', // 站点部署域名，无需协议和path等
   defaultSearch: 'google', // 默认搜索引擎，baidu或者google
-  defaultLanguage: 'en-us',
+  defaultLanguage: 'zh-cn',
   'en-us': {
     pageMenu: [
       {
@@ -72,20 +72,10 @@ export default {
         link: '/zh-cn/index.html',
       },
       {
-        key: 'docs',
-        text: '文档',
-        link: '/zh-cn/docs/demo1.html',
-      },
-      {
         key: 'blog',
         text: '博客',
         link: '/zh-cn/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
-      },
+      }
     ],
     disclaimer: {
       title: '免责声明',
@@ -121,6 +111,6 @@ export default {
         },
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2018 Yannis Zhao<zhaoyjun0222@gmail.com>',
   },
 };
