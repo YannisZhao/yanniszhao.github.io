@@ -67,11 +67,6 @@ export default {
   'zh-cn': {
     pageMenu: [
       {
-        key: 'home',
-        text: '首页',
-        link: '/zh-cn/index.html',
-      },
-      {
         key: 'blog',
         text: '博客',
         link: '/zh-cn/blog/index.html',
